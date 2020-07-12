@@ -8,14 +8,17 @@
     "serve": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
   },
   "devDependencies": {
+    "@types/app-root-path": "^1.2.4",
     "@types/dotenv": "^8.2.0",
     "@types/node": "^14.0.22",
     "@types/sequelize": "^4.28.9",
     "nodemon": "^2.0.4",
+    "sequelize-cli": "^6.2.0",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.6"
   },
   "dependencies": {
+    "app-root-path": "^3.0.0",
     "dotenv": "^8.2.0",
     "mysql2": "^2.1.0",
     "sequelize": "^6.3.3"

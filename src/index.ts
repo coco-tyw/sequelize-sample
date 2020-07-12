@@ -1,8 +1,8 @@
 import * as Dotenv from "dotenv"
-import * as path from 'path'
+import * as AppRootPath from "app-root-path"
 import { Sequelize } from "sequelize"
 
-Dotenv.config({path: path.resolve(__dirname, '../.env.local')})
+Dotenv.config({path: AppRootPath.resolve('/.env.local')})
 
 const sequelize = new Sequelize({
   dialect: 'mysql',
